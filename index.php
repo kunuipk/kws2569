@@ -127,7 +127,7 @@ async function predict(){
 if(!isRunning)return;
 webcam.update();
 const ctx=canvas.getContext('2d');
-ctx.drawImage(webcam.canvas,0,0,400,400);
+ctx.drawImage(webcam.canvas,0,0,800,800);
 simulatePrediction();
 requestAnimationFrame(predict);
 }
@@ -154,5 +154,6 @@ else overall.textContent='ปกติ';
 </script>
 </body>
 </html>
+
 
 
