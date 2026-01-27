@@ -42,7 +42,7 @@ body { font-family:'Kanit',sans-serif; background:linear-gradient(135deg,#FFE5B4
 
 <!-- CAMERA -->
 <div class="flex justify-center mb-6">
-<canvas id="canvas" width="400" height="400" class="rounded-xl shadow-lg bg-black"></canvas>
+<canvas id="canvas" width="800" height="800" class="rounded-xl shadow-lg bg-black"></canvas>
 </div>
 
 <!-- RESULTS -->
@@ -154,6 +154,7 @@ else overall.textContent='ปกติ';
 </script>
 </body>
 </html>
+
 
 
 
