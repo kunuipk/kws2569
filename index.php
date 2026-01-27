@@ -24,7 +24,7 @@ body { font-family:'Kanit',sans-serif; background:linear-gradient(135deg,#FFE5B4
 <!-- HEADER -->
 <header class="text-center mb-6">
 <h1 class="text-4xl font-bold text-purple-600">HFMD WEB</h1>
-<p class="text-gray-600">ระบบตรวจคัดกรองโรคมือ เท้า ปาก ด้วย AI</p>
+<p class="text-gray-600">ระบบตรวจคัดกรองโรคมือ เท้า ปาก ด้วยปัญญาประดิษฐ์</p>
 </header>
 
 <!-- TAB -->
@@ -154,4 +154,5 @@ else overall.textContent='ปกติ';
 </script>
 </body>
 </html>
+
 
