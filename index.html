@@ -42,7 +42,7 @@ body { font-family:'Kanit',sans-serif; background:linear-gradient(135deg,#FFE5B4
 
 <!-- CAMERA -->
 <div class="flex justify-center mb-6">
-<canvas id="canvas" width="400" height="400" class="rounded-xl shadow-lg bg-black"></canvas>
+<canvas id="canvas" width="800" height="800" class="rounded-xl shadow-lg bg-black"></canvas>
 </div>
 
 <!-- RESULTS -->
@@ -103,7 +103,7 @@ async function startDetection(){
 if(isRunning)return;
 isRunning=true;
 startTimer();
-webcam=new tmImage.Webcam(400,400,true);
+webcam=new tmImage.Webcam(800,800,true);
 await webcam.setup();await webcam.play();
 predict();
 }
@@ -154,4 +154,5 @@ else overall.textContent='ปกติ';
 </script>
 </body>
 </html>
+
 
