@@ -103,7 +103,7 @@ async function startDetection(){
 if(isRunning)return;
 isRunning=true;
 startTimer();
-webcam=new tmImage.Webcam(400,400,true);
+webcam=new tmImage.Webcam(800,800,true);
 await webcam.setup();await webcam.play();
 predict();
 }
@@ -154,3 +154,4 @@ else overall.textContent='ปกติ';
 </script>
 </body>
 </html>
+
