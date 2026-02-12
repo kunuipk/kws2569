@@ -120,7 +120,7 @@
  <body class="h-full overflow-auto gradient-bg">
   <div class="min-h-full flex flex-col w-full"><!-- Header -->
    <header class="text-center py-4 px-4">
-    <div class="flex flex-col items-center"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Camponotus_flavomarginatus_ant.jpg/320px-Camponotus_flavomarginatus_ant.jpg" alt="HFMD Logo" class="h-auto max-w-[140px] drop-shadow-lg" loading="lazy" onerror="this.style.display='none';">
+    <div class="flex flex-col items-center"><img src="http://www.kws.ac.th/images/kws.png" alt="HFMD Logo" class="h-auto max-w-[140px] drop-shadow-lg" loading="lazy" onerror="this.style.display='none';">
      <h1 id="system-title" class="text-3xl md:text-4xl font-bold mt-2 bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 bg-clip-text text-transparent drop-shadow-sm">HFMD WEB</h1>
      <p class="text-gray-600 text-sm mt-1">ระบบตรวจโรคมือ เท้า ปาก ด้วย AI</p>
     </div>
